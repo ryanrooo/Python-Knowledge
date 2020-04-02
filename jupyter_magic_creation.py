@@ -179,7 +179,7 @@ def load_ipython_extension(ip):
     #     """Load theextension in IPython."""
     #     display_javascript(js, raw=True)
     ip = get_ipython()
-    ip.register_magics(PPMagics)
+    ip.register_magics(Magics)
 
 
 ip = get_ipython()
