@@ -176,8 +176,7 @@ class mymagics(Magics):
 
 
 def load_ipython_extension(ip):
-    #     """Load the PPMagics extension in IPython."""
-    #     js = "IPython.CodeCell.options_default.highlight_modes[""'magic_text/x-sql'] = {'reg':[/^.*%%?.*/""]};"
+    #     """Load theextension in IPython."""
     #     display_javascript(js, raw=True)
     ip = get_ipython()
     ip.register_magics(PPMagics)
